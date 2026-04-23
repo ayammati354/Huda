@@ -1,0 +1,17 @@
+[
+  {
+    "name": "CavPorn",
+    "url": "https://github.com/ayammati354/Huda/raw/main/CavPornProvider/build/outputs/apk/debug/CavPornProvider-debug.apk",
+    "version": 1,
+    "description": "Plugin for CavPorn",
+    "authors": [
+      "ayammati354"
+    ],
+    "tvTypes": [
+      "NSFW"
+    ],
+    "language": "en",
+    "iconUrl": "https://cavporn.com/favicon.ico",
+    "status": 1
+  }
+]

@@ -1,13 +1,13 @@
-package com.example
+package com.cavporn
 
 import com.lagradost.cloudstream3.MainAPI
 import com.lagradost.cloudstream3.SearchResponse
 import com.lagradost.cloudstream3.TvType
 
-class ExampleProvider : MainAPI() { // All providers must be an instance of MainAPI
-    override var mainUrl = "https://example.com/" 
-    override var name = "Example provider"
-    override val supportedTypes = setOf(TvType.Movie)
+class CavPornProvider : MainAPI() { // All providers must be an instance of MainAPI
+    override var mainUrl = "https://cavporn.com" 
+    override var name = "CavPorn"
+    override val supportedTypes = setOf(TvType.NSFW)
 
     override var lang = "en"
 
